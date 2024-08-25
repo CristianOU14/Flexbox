@@ -1,18 +1,48 @@
 #Container{
-    height: 500px;
+    height: 600px;
     width: 100%;
-    background-color: coral;
+    background-color: white;
     display: flex;
-    /* flex-direction: column; */
-    /* flex-wrap: wrap; */
-    /* justify-content: space-around; */
-    /* align-items: center; */
-    /* align-content: space-between; */
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
 }
-.Boxes{
-    height: 100px;
-    width: 100px;
-    background-color: aqua;
+#Container2{
+    height: 400px;
+    width: 79%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+#BoxA{
+    height :150px;
+    width : 98%;
+    background-color: grey;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+#BoxB{
+    height :150px;
+    width : 100%;
+    background-color: grey;
     margin-bottom: 10px;
     margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#BoxF{
+    height :61%;
+    width : 20%;
+    background-color: grey;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.Boxes{
+    height: 47%;
+    width: 30.7%;
+    background-color: grey;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 20px;
 }
